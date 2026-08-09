@@ -2,35 +2,63 @@ body {
   background-color: lightyellow;
 }
 
-/* ELEMENT selector — targets EVERY <p> on the page */
+/* ELEMENT selector targeting  EVERY <p> on the page */
 p {
   color: #1A1A2E;
   font-size: 16px;
 }
 
-/* CLASS selector — targets any element with class="highlight" */
-/* You can apply the same class to multiple elements */
+/* CLASS selector targets any element with class="highlight" */
+
 .highlight {
   background-color: #FBEFD3;
   padding: 8px;
 }
 
 /* ID selector — targets the ONE element with id="intro" */
-/* IDs must be unique — only use each ID once per page */
+
 #intro {
   font-size: 22px;
   font-weight: bold;
 }
 
-/* Your Turn: class selector for repeated emphasis */
 .important {
   color: red;
   font-weight: bold;
 }
 
-/* Your Turn: ID selector for the unique page header */
 #page-header {
   background-color: #1E2761;
   color: white;
   padding: 12px;
+
+}
+
+
+/* 1. Named color */
+.color-named {
+  color: steelblue;
+}
+
+/* 2. Hexadecimal */
+.color-hex {
+  color: #1E2761; 
+}
+.color-hex2 {
+  color: #0D9488;
+}
+
+/* 3. RGB */
+.color-rgb {
+  color: rgb(30, 39, 97);
+}
+
+/* 4. HSL */
+.color-hsl {
+  color: hsl(232, 53%, 25%);
+}
+
+/* rgba */
+.color-trans {
+  background-color: rgba(13, 148, 136, 0.3);
 }
