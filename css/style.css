@@ -1,5 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
 body {
   background-color: lightyellow;
+  font-family: 'Poppins', Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 /* ELEMENT selector targeting  EVERY <p> on the page */
@@ -34,6 +47,7 @@ p {
 
 }
 
+/* task 3 */
 
 /* 1. Named color */
 .color-named {
@@ -61,4 +75,33 @@ p {
 /* rgba */
 .color-trans {
   background-color: rgba(13, 148, 136, 0.3);
+}
+
+/* task 4 */
+
+h1, h2, h3 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.1em;
+}
+ 
+.subtitle {
+  font-size: 1.25rem;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  color: #5B6478;
+  letter-spacing: 0.05em;
+}
+ 
+blockquote {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #0D9488;
+  border-left: 4px solid #D4A017;
+  padding-left: 1.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
 }
