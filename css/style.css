@@ -117,6 +117,12 @@ blockquote {
 
 
 /* task 5 */
+ .authorhighlight{
+    color: #fad13a;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 0.8rem;
+ }
  
 .tribute-container {
   max-width: 700px;

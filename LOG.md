@@ -1,4 +1,4 @@
-# Lab 2 — Error Log
+# Lab 2 Error Log
 
 **Student Name:** Mphatso Kenani
 
