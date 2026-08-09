@@ -1,3 +1,11 @@
+/*
+Tribute Page — ELE-IWS-521 Lab 2
+Student: Mphatso Kenani
+ID: BECE/21/SS/009
+Subject: John Chilembwe — Malawian independence leader
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +22,7 @@ body {
   font-size: 1rem;
   line-height: 1.6;
 }
+
 
 /* ELEMENT selector targeting  EVERY <p> on the page */
 p {
@@ -104,4 +113,40 @@ blockquote {
   padding-left: 1.5rem;
   margin: 2rem auto;
   max-width: 600px;
+}
+
+
+/* task 5 */
+ 
+.tribute-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem 3rem;
+}
+ 
+.tribute-photo {
+  display: block;
+  max-width: 320px;
+  width: 100%;
+  margin: 1.5rem auto;
+  border: 4px solid #1E2761;
+  border-radius: 6px;
+}
+ 
+.timeline {
+  background-color: #FBEFD3;
+  padding: 1.5rem 2rem;
+  border-radius: 6px;
+}
+ 
+.timeline li {
+  margin-bottom: 0.6rem;
+}
+ 
+.source-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #0D9488;
+  font-weight: 700;
 }
