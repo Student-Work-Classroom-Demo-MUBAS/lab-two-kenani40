@@ -1,1 +1,36 @@
-body { background-color: lightyellow; }
+body {
+  background-color: lightyellow;
+}
+
+/* ELEMENT selector — targets EVERY <p> on the page */
+p {
+  color: #1A1A2E;
+  font-size: 16px;
+}
+
+/* CLASS selector — targets any element with class="highlight" */
+/* You can apply the same class to multiple elements */
+.highlight {
+  background-color: #FBEFD3;
+  padding: 8px;
+}
+
+/* ID selector — targets the ONE element with id="intro" */
+/* IDs must be unique — only use each ID once per page */
+#intro {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Your Turn: class selector for repeated emphasis */
+.important {
+  color: red;
+  font-weight: bold;
+}
+
+/* Your Turn: ID selector for the unique page header */
+#page-header {
+  background-color: #1E2761;
+  color: white;
+  padding: 12px;
+}
